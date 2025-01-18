@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+*{  /* ใช้กับทุกคำสั้ง*/
+    box-sizing: border-box;
+    /* ขนานBOXไม่เพิ่มขึ้น */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: scroll;
+    background-color: #777;/* #777 */
+}
+
+.TitleTop{
+    background-color: #333;
+    position: sticky;
+    top: -50px;
+    padding: 60px 0px;
+
+    color: white;
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    font-size: 80px;
+    text-transform: uppercase ;
+
+}
+.Back{
+    /* Block */
+    background-color: #333;
+    padding: 0px 0px 0px 0px ;
+    position: sticky;
+    bottom: 0px;
+    text-align: right;
+}
+.BackText{
+    /* Text */
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.Book{
+    position: absolute;
+    padding: 0px 1095px;
+}
+.tree{
+    background-size: contain;
+    display: block;
+    width: 300px;
+    height: max-content;
+    float: right;
+    padding: 100px 0px 0px 0px;
+    margin: 0px 800px;
+
+    position: absolute;
+}
+
+.img{
+    display: block;
+    width: 800px;
+    height: max-content;
+    float: right;
+}
+.Group{
+    position: absolute;
+    margin: 0px 50px; /* 50  100 300*/
+    padding: 30px;
+    width: 800px;
+    height: 815px;
+    background-image: url(img/backgroudimg.jpg);/* #b18150 */
+    background-size: cover;
+    background-position: 10px 0px;
+}
+.Group2{
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    background-color: #44321e;/* #6b4e30 */
+    background-size: cover;  
+    padding: 10px;
+}
+
+a {
+    color: whitesmoke;
+    font-family: "Montserrat", serif;
+    font-size: 50px;
+    /* color: black; */
+    text-decoration: none;
+}
+
+.BI{
+    margin: 10px;
+    padding: 50px 50px;
+    background-size: cover;
+    background-position: 0px -175px;
+    background-image: url(img/biologyCUT.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.imgBIO{
+    width: 50%;
+    height: 50%;
+}
+.TitleSUBJECT{
+    background-color: #333;
+    position: sticky;
+    top: -50px;
+    padding: 50px 0px 0px 0px;
+
+    color: whitesmoke;
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+    font-size: 80px;
+    letter-spacing: 20px;
+}
+
+.CH{
+    margin: 10px;
+    padding: 50px 50px;
+    background-size: cover;
+    background-position: 0px -175px;
+    background-image: url(img/chemicalCUT.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.PH{
+    margin: 10px;
+    padding: 50px 50px;
+    background-size: cover;
+    background-position: 0px -150px;
+    background-image: url(img/PhysicsCUT.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.MA{
+    margin: 10px;
+    padding: 50px 50px;
+
+    background-position: -2px -75px;
+    background-image: url(img/mathCUT.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+
+}
+
+/* 
+Math
+Bio
+Fi
+C
+*/
